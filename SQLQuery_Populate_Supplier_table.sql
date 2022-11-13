@@ -1,0 +1,5 @@
+insert into dbo.suppliers(SUPPLIER_NAME, SUPP_CONTACT_NAME, SUPP_ADDRESS, SUPP_CONTACT_NUMBER, SUPP_EMAIL) select SUPPLIER_NAME, SUPP_CONTACT_NAME, SUPP_ADDRESS, SUPP_CONTACT_NUMBER, SUPP_EMAIL from dbo.XXBCM_ORDER_MGT
+
+select * from dbo.suppliers
+
+delete  from dbo.suppliers
